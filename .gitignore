@@ -1,0 +1,16 @@
+# Public demo mode: keep only presentation files and one sample output
+*
+
+!.gitignore
+!README.md
+!requirements.txt
+!main.py
+
+!output/
+output/*
+!output/manifest.json
+
+!output/5x5/
+output/5x5/*
+!output/5x5/puzzle_0001.json
+!output/5x5/puzzle_0001.png
